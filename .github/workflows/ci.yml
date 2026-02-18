@@ -15,7 +15,7 @@ jobs:
       packages: write
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       # TODO: укажите нужные значения для action setup-java
       - name: Setup Java
         uses: actions/setup-java@v4
